@@ -1,3 +1,4 @@
-.K {
-    display: flex;
+label {
+    display: inline-block;
+    width: 150px;
 }

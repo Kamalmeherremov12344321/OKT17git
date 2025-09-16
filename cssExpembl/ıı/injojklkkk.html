@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let srt = "Hi my names is Kamal"
+        let srt2 = "Hi my names is jake"
+
+        //index
+        let indexItem = srt.indexOf("m")
+        console.log(`IndexOf("m"): ${indexItem}`);
+
+        //lastindex
+        let lastndexItem = srt.lastIndexOf("m")
+        console.log(`lastIndexOf("m"): ${lastndexItem}`)
+
+        //part
+        let part = srt.slice(2, 10);
+        console.log(`slice(2,10) ${part}`);
+
+        //replace
+        let replacej = srt.replace("Hi", "Kamal")
+        console.log(`replace: ${replacej}`);
+
+        //tiwer
+        let lower = srt.toLowerCase()
+        let upper = srt.toUpperCase()
+        console.log(`srt.tolowercase ${lower}`);
+        console.log(`srt.touppercase ${upper}`);
+
+        //contakt    
+        let str2 = "Extra"
+        let sum = str2 + srt
+        console.log(srt);
+        console.log(srt2.concat(srt));
+
+        //trim 
+        let trItems = "       hello       "
+        console.log(trItems);
+        console.log(trItems.trim());
+        console.log(trItems.trim() === "hello");
+
+        //char at
+        let srtIndex = srt.charAt(1)
+        console.log(srtIndex);
+
+        //spim
+        let arr = srt.split("")
+        console.log(arr);
+
+        let arr2 = srt.split(" ")
+        console.log(arr2);
+        
+    </script>
+</body>
+
+</html>
