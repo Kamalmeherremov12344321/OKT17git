@@ -8,21 +8,21 @@
 </head>
 
 <body>
-    <script> // // tap1 
+    <script> //tap1 
 
-        // let arr = [1, 2, 2, 5, 434, 4, 7, 43, 4,]
-        // let uniquar = new Set(arr)
-        // console.log(arr);
-        // console.log(uniquar);
+        let arr = [1, 2, 2, 5, 434, 4, 7, 43, 4,]
+        let uniquar = new Set(arr)
+        console.log(arr);
+        console.log(uniquar);
 
 
-        // // tap2
+       // tap2
 
-        // let arr2 = ["apple", "banana", "appple", "banana", "banana"]
-        // let uniquar2 = new Set(arr2)
-        // arr2.forEach(map => {
-        //     map.set(arr2, (map.get(arr2) || 0) + 1)
-        // });
+        let arr2 = ["apple", "banana", "appple", "banana", "banana"]
+        let uniquar2 = new Set(arr2)
+        arr2.forEach(map => {
+            map.set(arr2, (map.get(arr2) || 0) + 1)
+        });
 
 
 
@@ -40,7 +40,59 @@
         }
         let copyoftələbə = [...Tələbə]
         console.log(copyoftələbə);
-,.
+
+
+
+        class User {
+            constructor(s, n, a, g) {
+                this.surname = s
+                this.name = n
+                this.age = a
+                this.gender = g
+
+
+
+            }
+
+
+
+        }
+
+
+
+        let aa = new user(`meherreemov`, `kamal`, 11, `male`)
+        console.log(aa);
+        //tap
+        class Use {
+            constructor(s, n, a, g) {
+                this.surname = s
+                this.name = n
+                this.age = a
+                this.gender = g
+            }
+            celebrate() {
+                this.age++
+            }
+        }
+        let ad = new Use(`meherreemov`, `kamal`, 11, `male`)
+        console.log(ad);
+        ad.celebrate()
+        console.log(ad);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     </script>
