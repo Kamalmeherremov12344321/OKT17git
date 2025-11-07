@@ -13,46 +13,122 @@
     <script>
 
 
-        class User {
-            constructor(n, m) {
-                this.nam = n
-                this.man = m
+        // class User {
+        //     constructor(n, m) {
+        //         this.nam = n
+        //         this.man = m
 
-                let newww = User.map((n, m) => {
-                    return n + m
-                })
-                console.log(User);
+        //         let newww = User.map((n, m) => {
+        //             return n + m
+        //         })
+        //         console.log(User);
+        //     }
+        //     cal() {
+        //         n = 34
+        //         m = 65
+
+
+        //     }
+
+
+        // }
+
+        // class rentagle {
+        //     constructor(a, b) {
+        //         this.area = a
+        //         this.per = b
+        //     }
+
+        //     cak(a, b) {
+        //         return a * b
+        //     }
+        //     casd(a, b) {
+        //         return a + a + b + b
+        //     }
+        // }
+
+        // console.log(rentagle);
+
+
+
+        // class Person {
+        //     constructor(n, a, s, g) {
+        //         this.age = a
+        //         this.gender = g
+        //         this.name = n
+        //         this.surname = s
+        //     }
+        //     rename(nn) {
+        //         this.name = nn
+        //     }
+        // }
+
+
+        // class Admin extends Person {
+        //     constructor(n, a, s, g, i, r) {
+        //         super(n, a, s, g)
+        //         this.id = i
+        //         this.role = r
+        //     }
+
+        // }
+
+        // class Player extends Person {
+        //     constructor(n, a, s, g, l) {
+        //         super(n, a, s, g)
+        //         this.level = l
+
+        //     }
+        // }
+
+        // let jj = new Admin("kamal", 12, "məhərrəmov", "male", 12121221, "kamalkamal")
+        // let j = new Player("kamal", 12, "məhərrəmov", "male", 12121221, "kamalkamal", 100)
+        // console.log(j);
+        // j.rename("Per")
+        // console.log(j);
+
+
+
+
+        class Animal {
+            constructor(s, a) {
+                this.sound = s
+                this.animal = a
             }
-            cal() {
-                n = 34
-                m = 65
-
-
+            makeasound(sound) {
+                this.soundd = s
             }
-
 
         }
 
-        class rentagle {
-            constructor(a, b) {
-                this.area = a
-                this.per = b
-            }
-           
-             cak(a,b){
-                return a * b
-            }
-             casd(a,b){
-                return a + a + b + b
+        class Cat extends Animal {
+            constructor(s, a, me) {
+                super(s, a)
+                this.meow = me
             }
         }
-        console.log(rentagle);
+
+        class Dog  extends Animal{
+            constructor(s, a, me, ho) {
+                super(s, a, me)
+                this.hoow = ho
+            }
+        }
+
+        let l = new Cat("meow","cat") 
+        console.log(l);
+        let k = new Dog("howhow","dog") 
+        console.log(k);
+        
         
 
 
 
 
+
     </script>
+
+
 </body>
 
 </html>
