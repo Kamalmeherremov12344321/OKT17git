@@ -1,34 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    <!-- <p id="name">Kamal </p>
-    <ul> -->
-        <li id = "...">BMW M8</li>
-        <li>6TX 1660</li>
-        <li>8392</li>
-        <li>267u2u8</li>
-        <li>82jwi</li>
-        <li>mercedes</li>
+
+
+
+    <h1 id="jk">"Kamal"</h1>
+    <ul id="box">
+        <li>Gtx 1650</li>
+        <li>Gtx 1660</li>
+        <li id="primary">Gtx 1660 Ti</li>
+        <li>RTX 2070</li>
+        <li>RTX 2080</li>
+        <li id="primary">RTX 2080 Ti</li>
     </ul>
 
 
     <script>
-        // let jj = document.getElementById("name")
-        // console.log(jj);
+        let box = document.getElementById("box")
+        let li = document.createElement("li")
+        li.innerHTML = "TİTAN RTX"
+        console.log(li);
+        li.style.backgroundColor = "yellow"
+        box.append(li)
+
+
+        let jn = document.getElementById("primary")
+        jn.style.color = `#ebebeb`
+        let jkkkk = document.getElementById("jk")
+        jkkkk.innerHTML = "GeForce20"
+        console.log(jkkkk);
+
+        let jj = document.getElementById("primary")
+        console.log(jj);
+        
         
 
-        let jk = document.getElementById("...")
-        console.log(jk);
-        
     </script>
 
 </body>
+
 </html>
-
-
-
