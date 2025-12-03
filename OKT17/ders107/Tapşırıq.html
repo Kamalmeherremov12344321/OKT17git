@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <ul>
+        <li><button id="Milk">Milk</button></li>
+        <li><button id="Butter">Butter</button></li>
+        <li><button id="Bread">Bread</button></li>
+        <li><button id="Cheese">Cheese</button></li>
+    </ul>
+    <script>
+        let süd = document.getElementById("Milk")
+        süd.addEventListener("click", (s) => { süd.style.backgroundColor = "grey", console.log("Alındı!(süd)") })
+
+        let yağ = document.getElementById("Butter")
+        yağ.addEventListener("click", (y) => {
+            yağ.style.backgroundColor = "grey", console.log("Alındı!(yağ)");
+        })
+
+        let çörək = document.getElementById("Bread")
+        çörək.addEventListener("click", (ç) => { çörək.style.backgroundColor = "grey", console.log("Alındı!(çörək)") })
+
+        let pendir = document.getElementById("Cheese")
+        pendir.addEventListener("click", (p) => { pendir.style.backgroundColor = "grey", console.log("Alındı!(pendir)") })
+    </script>
+</body>
+
+</html>
