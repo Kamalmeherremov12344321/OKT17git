@@ -8,6 +8,24 @@
 </head>
 
 <body>
+    <style>
+       #Milk{
+        border: none;
+        background: none;
+       }
+       #Butter{
+        border: none;
+        background: none;
+       }
+       #Bread{
+        border: none;
+        background:none;
+       }
+       #Cheese{
+        border: none;
+        background:none;
+       }
+    </style>
     <ul>
         <li><button id="Milk">Milk</button></li>
         <li><button id="Butter">Butter</button></li>
@@ -16,18 +34,18 @@
     </ul>
     <script>
         let süd = document.getElementById("Milk")
-        süd.addEventListener("click", (s) => { süd.style.backgroundColor = "grey", console.log("Alındı!(süd)") })
+        süd.addEventListener("click", (s) => { s.target.style.color = "gray", console.log("Alındı!(süd)") })
 
         let yağ = document.getElementById("Butter")
         yağ.addEventListener("click", (y) => {
-            yağ.style.backgroundColor = "grey", console.log("Alındı!(yağ)");
+            y.target.style.color = "gray", console.log("Alındı!(yağ)");
         })
 
         let çörək = document.getElementById("Bread")
-        çörək.addEventListener("click", (ç) => { çörək.style.backgroundColor = "grey", console.log("Alındı!(çörək)") })
+        çörək.addEventListener("click", (ç) => { ç.target.style.color = "gray", console.log("Alındı!(çörək)") })
 
         let pendir = document.getElementById("Cheese")
-        pendir.addEventListener("click", (p) => { pendir.style.backgroundColor = "grey", console.log("Alındı!(pendir)") })
+        pendir.addEventListener("click", (p) => {p.target.style.color = "gray", console.log("Alındı!(pendir)") })
     </script>
 </body>
 
